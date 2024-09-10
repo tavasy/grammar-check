@@ -219,7 +219,7 @@ function App() {
           </div>
         </div>
 
-        <div className="w-full pt-6 md:p-4 lg:p-6 xl:p-6 2xl:p-6 md:w-1/4 flex flex-col md:h-full overflow-auto border-t md:border-l md:border-t-0 border-gray-600 mb-10 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0">
+        <div className="w-full pt-6 md:p-4 lg:p-6 xl:p-6 2xl:p-6 md:w-1/4 flex flex-col md:h-full overflow-auto border-t md:border-l md:border-t-0 border-gray-600 mb-12 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0">
           <p className="font-bold mb-3 md:mb-4 lg:mb-5 xl:mb-5 2xl:mb-5 text-white text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-3xl">
             Corrections
           </p>
