@@ -223,7 +223,7 @@ function App() {
           <p className="font-bold mb-3 md:mb-4 lg:mb-5 xl:mb-5 2xl:mb-5 text-white text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-3xl">
             Corrections
           </p>
-          <div className="flex-grow overflow-auto shadow-lg rounded-lg h-64 md:h-80 lg:h-auto xl:h-auto 2xl:h-auto">
+          <div className="flex-grow overflow-auto shadow-lg rounded-lg">
             {isLoading ? (
               <div>
                 <div className="shadow-xs rounded-lg p-4 bg-customPurple border border-customLightPurple">
@@ -244,7 +244,7 @@ function App() {
               </div>
             ) : corrections.length > 0 ? (
               <motion.div
-                className="flex flex-col space-y-4"
+                className="flex flex-col space-y-4 h-64 md:h-80 lg:h-auto xl:h-auto 2xl:h-auto"
                 initial="hidden"
                 animate="visible"
                 variants={containerVariants}
