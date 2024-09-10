@@ -32,7 +32,7 @@ function App() {
     setHasSubmitted(true);
     setOriginalText(text);
 
-    const response = await fetch('http://127.0.0.1:5000/grammar-check', {
+    const response = await fetch('https://grammar-check-server.onrender.com/grammar-check', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
