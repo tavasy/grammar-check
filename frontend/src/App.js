@@ -12,7 +12,7 @@ function App() {
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
 
-  const sampleText = `Hello,\nMy name is Susan. I'm forteen and I life in Germany. My hobbys are go to discos, sometimes I hear music in the radio. In the summer I go bathing in a lake. I haven't any brothers or sisters. We take busses to scool. I visit year 9 at my school. My birthday is on Friday. I hope I will become a new guitar.\nI'm looking forward to get a e-mail from you.\n\nYours,\nSusan`;
+  const sampleText = `Hello,\nMy name is Susan. I'm forteen and I life in Germany. My hobbys are to go discos, sometimes I listen music on the radio. I don't have any brothers or sisters. I take busses to scool. My birthday is on Friday. I hope I will have a new guitar.\nI'm looking forward to get a e-mail from you.\n\nYours,\nSusan`;
 
   const handleTextChange = (e) => {
     setText(e.target.value);
